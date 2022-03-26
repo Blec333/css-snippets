@@ -108,6 +108,10 @@ article {
     cursor:grab;
 }
 
+.code-select:active {
+    cursor: grabbing;
+}
+
 .code-select {
     color: white;
     user-select: all;
