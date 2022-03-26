@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Snipit Cheatsheet</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header class="center">
+        <h1>CSS Snippet Cheatsheet</h1>
+        <p>Ever have trouble recalling the exact syntax for your favorite CWSS code? Give it a permanent home and add it
+            to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+    </header>
+
+    <main>
+        <section class="display-flex">
+            <article>
+                <h2>Flexbox Row</h2>
+                <p class="descrp">Use these three properties to create a Flexbox row layout</p>
+                <pre class="code">
+
+
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+
+
+
+</pre>
+            </article>
+        </section>
+        <section class="display-flex">
+            <article>
+                <h2>Flexbox Column</h2>
+                <p class="descrp">Use this to create a Flexbox column layout.</p>
+                <pre class="code">
+
+
+
+
+    .column {
+      display: flex;
+      flex-direction: column
+    }
+
+
+
+
+
+</pre>
+            </article>
+        </section>
+        <section class="display-flex">
+            <article>
+                <h2>CSS Grid Layout</h2>
+                <p class="descrp">Build a 12-column layout using CSS Grid</p>
+                <pre class="code">
+
+
+
+
+    .grid {
+      display:grid;
+      width:100%;
+      grid-template-columns: repeat(12,1fr);
+    }
+
+
+
+
+</pre>
+            </article>
+        </section>
+        <section class="display-flex">
+            <article>
+                <h2>Linear Gradients</h2>
+                <p class="descrp">This will create a background linear gradient from top to bottom.</p>
+                <pre class="code">
+
+
+
+    .linear-gradient-background {
+      background-image:linear-gradient(
+        rgba(232,102,236,0.3)0%,
+        rgba(232,102,236,0.6)100%
+      );
+    }
+
+
+
+</pre>
+            </article>
+        </section>
+        <section class="display-flex">
+            <article>
+                <h2>Box Transition Glow</h2>
+                <p class="descrp">Use transition and box shadows to glow on hover.</p>
+                <pre class="code">
+    .code-card .card-header {
+      border-radius:8px;
+      transition: all 0.5s ease-in-out;
+    }
+        
+    .code-card:hover,
+    .code-card:hover .card-header {
+      box-shadow: inset Opx 0px 8px
+        rgba(232, 102, 236, 1), 0 0 15px
+        rgba(232, 102, 236, 1);
+    }
+
+</pre>
+            </article>
+        </section>
+        <section class="display-flex">
+            <article>
+                <h2>Overlay Card with Title</h2>
+                <p class="descrp">Use position properties and negative margins to raise elements higher than their natural
+                    starting</p>
+                <pre class="code">
+
+
+
+    .card-header {
+      position: relative;
+      margin-top: -20px;
+
+
+
+
+
+</pre>
+            </article>
+        </section>
+    </main>
+    <footer class="center">
+        <br>
+        <br>
+        <h3>Made with the help of 
+            <span style="size: 50%; display:inline-block;">
+                <a href="https://www.nasa.gov/press-release/nasa-s-webb-reaches-alignment-milestone-optics-working-successfully" target="_blank">
+                    <img src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg"/>
+                </a>
+            </span>
+             and CSS 
+            <span style="font-size:100%;color:red;">&star;
+            </span>
+            !
+        </h3>
+        <br>
+        <br>
+    </footer>
+</body>
+
+</html>
+
+

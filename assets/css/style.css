@@ -1,19 +1,5 @@
-# CSS-Snippets
-
-CSS Snippet Cheatsheet
-
-## Description 
-
-This sight intends to provide a examples of how CSS can be used to dynamically format a webpage while offering some snippets to tryout for yourself.  Now if you are struggling to remember one of these more complex codes they are just a click away.
-
-## Examples 
-
-The source code may provide a deeper insight and more thorough examples of what CSS can do.
 
 
-
-  * Use of the root psuedo-class.
-```md
 :root {
     --white-text: white;
     --border-rad: 5px;
@@ -27,13 +13,64 @@ The source code may provide a deeper insight and more thorough examples of what 
     background-position-y: -200px;
     background-position-x: 50px;
 }
-```
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(205, 87, 221);
+    /* border: 1px solid greenyellow; */
+}
+h2, .code {
+    border: 1px solid white
+}
+
+body {
+    max-width: 992px;
+    margin: 0px;
+}
+
+main {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+header p, .code {
+    color: white;
+}
+
+.display-flex {
+    display: flex;
+    flex: 0 0 var(--card-width);
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 333px;
+}
+
+h2 {
+    border-radius: var(--border-rad);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16px;
+    width: var(--header-width);
+    background-color: black;
+    opacity: 100%;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
 
 
+article {
+    border: 1px dashed white;
+    display: block;
+    justify-content: center;
+    width: var(--card-width);
+    height: 100%;
+}
 
-  * The ability to select text with a singnle click of the mouse.
-
-```md
 .code {
     display: flex;
     margin: 0px;
@@ -52,13 +89,7 @@ The source code may provide a deeper insight and more thorough examples of what 
     );
     user-select: all;
 }
-```
 
-
-
-  * Just hover to enjoy some flashy dynamic content!
-
-```md
 .code:hover {
     border-color: white;
     border-radius: 100%;
@@ -76,36 +107,13 @@ The source code may provide a deeper insight and more thorough examples of what 
                 transition: all 0.2s ease-in-out;
     cursor:grab;
 }
-```
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
 
 
 
-
-
-Visit: https://blec333.github.io/Horisean/ to review the deployed page.
-
-## Usage 
-
-This is a landing page for use in advertising the services available for Horisean clients.
-
-Final product:
-
-<img title="Horisean" alt="Landing Page Screenshot" src="./assets/images/Landing-Page.png">
-
-Deployed Application
-https://blec333.github.io/Horisean/
-
-Github Repository
-https://github.com/Blec333/Horisean/
-
-
-
-
-
-
-
-![final-product](https://user-images.githubusercontent.com/100871996/160218356-773041bf-d83a-45b5-9571-b4b217a17cbc.png)
-
-Acknowledgements
-©Brennan LeClair
-©Caitlin Lindauer
