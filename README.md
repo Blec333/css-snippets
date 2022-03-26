@@ -10,8 +10,6 @@ This sight intends to provide a examples of how CSS can be used to dynamically f
 
 The source code may provide a deeper insight and more thorough examples of what CSS can do.
 
-
-
   * Use of the root psuedo-class.
 ```md
 :root {
@@ -28,8 +26,6 @@ The source code may provide a deeper insight and more thorough examples of what 
     background-position-x: 50px;
 }
 ```
-
-
 
   * The ability to select text with a singnle click of the mouse.
 
@@ -54,8 +50,6 @@ The source code may provide a deeper insight and more thorough examples of what 
 }
 ```
 
-
-
   * Just hover to enjoy some flashy dynamic content!
 
 ```md
@@ -79,33 +73,35 @@ The source code may provide a deeper insight and more thorough examples of what 
 ```
 
 
+Visit: https://blec333.github.io/css-snippets/ to review the deployed page.
 
 
-
-Visit: https://blec333.github.io/Horisean/ to review the deployed page.
 
 ## Usage 
 
 This is a landing page for use in advertising the services available for Horisean clients.
 
-Final product:
 
-<img title="Horisean" alt="Landing Page Screenshot" src="./assets/images/Landing-Page.png">
+### Final Product
+
+<img title="CSS" alt="Style Showcase Page Screenshot" src="./assets/images/final-product.jpg">
+<img title="CSS" alt="Style Showcase Page Screenshot" src="./assets/images/final-product2.jpg">
+<img title="CSS" alt="Style Showcase Page Screenshot" src="./assets/images/final-product3.jpg">
+
+
 
 Deployed Application
-https://blec333.github.io/Horisean/
+https://blec333.github.io/css-snippets/
 
 Github Repository
-https://github.com/Blec333/Horisean/
+https://github.com/Blec333/css-snippets
 
 
 
 
+## Acknowledgements
 
 
-
-![final-product](https://user-images.githubusercontent.com/100871996/160218356-773041bf-d83a-45b5-9571-b4b217a17cbc.png)
-
-Acknowledgements
 ©Brennan LeClair
+
 ©Caitlin Lindauer
