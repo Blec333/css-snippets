@@ -27,18 +27,27 @@ The source code may provide a deeper insight and more thorough examples of what 
 }
 ```
 
-  * The ability to select text with a singnle click of the mouse.
+  * The ability to select text with a single click of the mouse.
+
+```md
+.code-select {
+    color: white;
+    user-select: all;
+}
+```
+
+  * Just hover to enjoy some flashy dynamic content!
 
 ```md
 .code {
     display: flex;
-    margin: 0px;
+    flex: 1 1 auto;
+    margin-bottom: 10px;
     border-radius: 10px;
-    list-style: none;
     width: var(--code-width);
     margin-left: auto;
     margin-right: auto;
-    align-items: stretch;
+    align-items: center;
     background-image: radial-gradient(
         black 70%,
         darkred 80%,
@@ -46,12 +55,9 @@ The source code may provide a deeper insight and more thorough examples of what 
         yellow 90%,
         white 100%
     );
-    user-select: all;
+    transition: all 0.2s ease-in-out;
 }
 ```
-
-  * Just hover to enjoy some flashy dynamic content!
-
 ```md
 .code:hover {
     border-color: white;
